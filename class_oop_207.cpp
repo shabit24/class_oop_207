@@ -1,5 +1,5 @@
 // class_oop_207.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+
 
 #include <iostream>
 using namespace std;
@@ -38,9 +38,12 @@ public:
 int main() {
 	Mahasiswa mhs;
 	Matakuliah Mk;
-	mhs tampile();
-	Mk inputMk();
-	Mk tampilMK();
+	cout << "\nMasukan NIM = ";
+	cin >> mhs.nim;
+	
+	mhs.tampile();
+	Mk.inputMk();
+	Mk.tampilMK();
 	
 
 }

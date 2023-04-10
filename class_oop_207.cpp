@@ -25,8 +25,10 @@ public:
 	void inputMk() {
 		cout << "\nMasukan jumlah sks = ";
 		cin >> sks;
-		cout << "nMasukan Kode Mk = ";
-		cin >> namaMk;
+		cout << "\nMasukan Kode Mk = ";
+		cin >> kode;
+		cout << "\nMasukan namaMk = ";
+		cin >> namaMK;
 	}
 	void tampilMK() {
 		cout << "\nJumlah sks = " << sks;

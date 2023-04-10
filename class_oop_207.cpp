@@ -36,6 +36,11 @@ public:
 };
 
 int main() {
+	Mahasiswa mhs;
+	Matakuliah Mk;
+	mhs tampile();
+	Mk inputMk();
+	
 
 }
 

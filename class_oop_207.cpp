@@ -40,6 +40,7 @@ int main() {
 	Matakuliah Mk;
 	mhs tampile();
 	Mk inputMk();
+	Mk tampilMK();
 	
 
 }

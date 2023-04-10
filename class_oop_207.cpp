@@ -28,7 +28,7 @@ public:
 		cout << "\nMasukan Kode Mk = ";
 		cin >> kode;
 		cout << "\nMasukan namaMk = ";
-		cin >> namaMK;
+		cin >> namaMk;
 	}
 	void tampilMK() {
 		cout << "\nJumlah sks = " << sks;
@@ -47,6 +47,7 @@ int main() {
 	mhs.tampile();
 	Mk.inputMk();
 	Mk.tampilMK();
+	//done
 	
 
 }

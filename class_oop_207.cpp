@@ -7,5 +7,6 @@ int main()
 {
     cout << "Hello World!\n";
     cout << "Class D";
+    cout << "Programming";
 }
 

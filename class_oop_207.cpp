@@ -40,7 +40,8 @@ int main() {
 	Matakuliah Mk;
 	cout << "\nMasukan NIM = ";
 	cin >> mhs.nim;
-	
+	cout << " \nMasukan Nama = ";
+	cin >> mhs.nama;
 	mhs.tampile();
 	Mk.inputMk();
 	Mk.tampilMK();
